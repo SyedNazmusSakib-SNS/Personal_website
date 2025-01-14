@@ -71,47 +71,8 @@ my-portfolio/
 └── [config files]
 ```
 
-## 🔍 ESLint Configuration
 
-The project uses a comprehensive ESLint setup for maintaining code quality:
 
-- Type-aware linting enabled
-- React-specific rules
-- Strict TypeScript checks
-
-For development, the following ESLint configurations are recommended:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  settings: { react: { version: '18.3' } },
-  plugins: { react },
-  rules: {
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👤 Author
-
-Your Name
-- GitHub: [@isandeepmakwana](https://github.com/isandeepmakwana)
-- LinkedIn: [Sandeep Makwana](https://linkedin.com/in/sandeepmakwana)
 
 ---
 
