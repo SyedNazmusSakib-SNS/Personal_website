@@ -701,7 +701,7 @@ export default function EnhancedPortfolio() {
                 Languages & Tools
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                {['Python', 'JavaScript', 'TypeScript', 'C', 'C++', 'SQL', 'Bash', 'Java'].map(skill => (
+                {['Python', 'C++', 'SQL', 'Javascript'].map(skill => (
                 <motion.span
                   key={skill}
                   whileHover={{ scale: 1.05 }}
@@ -719,7 +719,7 @@ export default function EnhancedPortfolio() {
                 Frameworks & Libraries
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                {['Django', 'Flask', 'FastAPI', 'React', 'Tailwind', 'Pytest', 'Pandas', 'NumPy'].map(skill => (
+                {['PyTorch', 'TensorFlow', 'Transformers', 'Langchain', 'OpenCV', 'Torchvision', 'Flask', 'Streamlit'].map(skill => (
                 <motion.span
                   key={skill}
                   whileHover={{ scale: 1.05 }}
@@ -737,7 +737,7 @@ export default function EnhancedPortfolio() {
                 Cloud & DevOps
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                {['AWS', 'Docker', 'Jenkins', 'Git', 'CI/CD'].map(skill => (
+                {['ML Flow', 'Docker', 'Git'].map(skill => (
                 <motion.span
                   key={skill}
                   whileHover={{ scale: 1.05 }}
